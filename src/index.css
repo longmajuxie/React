@@ -1,5 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@import '~antd/dist/antd.css';
+ .logo {
+  width: 120px;
+  height: 31px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 158px 16px 0;
+  float: left;
+}
+.ant-menu-submenu-horizontal > .ant-menu{
+  margin-top: 2px;
 }
